@@ -39,3 +39,23 @@ jobs:
         with:
           push: true
           tags: rvlq/coursepage:latest
+
+### from: https://github.com/AkhileshNS/heroku-deploy ###
+# name: Deploy
+# on:
+#   push:
+#     branches:
+#       - master
+# jobs:
+#   build:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "docker-course-page-test" #Must be unique in Heroku
+          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          usedocker: true
+
