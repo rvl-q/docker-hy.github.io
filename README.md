@@ -2,6 +2,10 @@
 
 If you have any questions, send an email to jami.kousa@helsinki.fi or send a message through the course Discord group.
 
+# This version is "FAKE", don't trust it
+
+Real material in link above.
+
 ## Material template
 
 This repository contains both the source code of this course's webpage and the source for the content of the course. The content is located in the `data` folder and everything else is for the website.
