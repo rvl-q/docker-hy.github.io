@@ -11,7 +11,7 @@ sidebar_priority: 7000
 
 https://devopswithdocker.com/
 
-update trigger...
+update trigger edit...
 
 ## Exercise 1.16 Heroku url reused in Ex 3.1
 
